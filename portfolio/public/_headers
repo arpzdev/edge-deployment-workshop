@@ -1,0 +1,11 @@
+# Custom HTTP headers served by Cloudflare Pages edge
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Served-By: day07-edge-deploy
+
+/*.css
+  Cache-Control: public, max-age=3600
+/*.js
+  Cache-Control: public, max-age=3600

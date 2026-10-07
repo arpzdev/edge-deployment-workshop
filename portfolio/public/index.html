@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arpan Acharya — Portfolio</title>
+  <meta name="description" content="Creative Media Manager, instructor and Computational Mathematics student at Kathmandu University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;800&family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top"><span class="badge">AA</span> arpan.dev</a>
+    <nav>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero card">
+      <div class="hero-head">
+        <span class="num">01</span>
+        <div>
+          <p class="kicker">Kathmandu, Nepal — <span id="year"></span></p>
+          <h1>ARPAN ACHARYA</h1>
+        </div>
+        <div class="tags">
+          <span class="tag lime">#CREATIVE_MEDIA</span>
+          <span class="tag gold">Open to work</span>
+        </div>
+      </div>
+      <hr />
+      <div class="hero-body">
+        <p class="lead">
+          Creative Media Manager at <strong>Lukeko Law</strong>, instructor, and
+          <strong>Computational Mathematics</strong> student at Kathmandu University.
+          I tell stories with video, build for the web, and dig into data.
+        </p>
+        <div class="stats">
+          <div><b>135K+</b><span>TikTok reach</span></div>
+          <div><b>50K+</b><span>Facebook</span></div>
+          <div><b>15K+</b><span>YouTube subs</span></div>
+        </div>
+      </div>
+      <div class="callout">
+        <p class="callout-title">WHAT I CAN DO FOR YOU</p>
+        <p>Video production & editing · Web design · SEO & content strategy · Laravel backends · Data analysis with pandas.</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="card">
+      <div class="section-head"><h2>EXPERIENCE</h2><span class="count" id="exp-count"></span></div>
+      <div id="experience-list" class="list"></div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="card">
+      <div class="section-head"><h2>EDUCATION</h2><span class="count" id="edu-count"></span></div>
+      <div id="education-list" class="list"></div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="card">
+      <div class="section-head"><h2>SKILLS</h2></div>
+      <div id="skills-list" class="chips"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="card">
+      <div class="section-head"><h2>CONTACT</h2></div>
+      <div class="contact-row">
+        <a class="btn" href="mailto:hello@example.com">✉ SAY HELLO →</a>
+        <a class="btn ghost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LINKEDIN →</a>
+        <a class="btn ghost" href="https://github.com/" target="_blank" rel="noopener">GITHUB →</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <!-- This badge is filled by the Pages Function at /api/edge (functions/api/edge.js) -->
+    <p id="edge-badge" class="mono muted">⚡ checking which edge served you…</p>
+    <p class="mono muted">Deployed on Cloudflare Pages · Day 07 Edge Deployment</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
